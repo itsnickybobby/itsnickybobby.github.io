@@ -2,52 +2,97 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Nicky Bobby</title>
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>It's Nicky Bobby</title>
 <style>
-  /* CSS code here */
   
-  header {
-  background-color: #30415D;
-  color: white;
-  padding: 20px;
-}
+  .background {
+  		background-image: url('img1.jpg');
+  		background-repeat: no-repeat;
+  		background-size: cover;
+		height: 100%;
+  		width: 100%;
+  }
 
 h1 {
   margin: 0;
-  font-family: Apple Chancery, cursive;
-  font-size: 48px;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 10px;
 }
 
 h2 {
-  margin: 0 0 10px 0;
-  font-family: Copperplate, fantasy;
+  margin: 0;
+  color: white;
+  font-family: Lato, sans-serif;
   font-weight: 100;
   font-size: 28px;
 }
 
-.parallax {
-  background-image: url('HeaderImage.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  height: 100vh;
+h3 {
+  margin: 0;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
 }
 
  body {
   margin: 0;
-  padding: 0;
-  background-color: white;
+  background-color: none;
+  padding: 10px;
 }
-
+.centered{
+		text-align: center;
+}
 button {
-  font-family: Montserrat, sans-serif;
-  color: white;
-  background-color: #30415D;
+background: none;
+	background-color: none;
+  font-family: Lato, sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
 }
 
+button.gradient-red {		
+background: linear-gradient(to right, #C70033, #FBB03B);
+border: none;		
+color: white;
+padding: 15px 32px;		
+text-align: center;		
+text-decoration: none;		
+display: inline-block;		
+font-size: 16px;		
+margin: 4px 2px;		
+cursor: pointer;		
+}
+button.gradient-lime {		
+background: linear-gradient(to right,#009245, #FCEE21);		
+border: none;		
+color: white;
+padding: 15px 32px;		
+text-align: center;		
+text-decoration: none;		
+display: inline-block;		
+font-size: 16px;		
+margin: 4px 2px;		
+cursor: pointer;		
+}	
+button.gradient-blue {		
+background: linear-gradient(to right, #2E3192, #1BFFFF);		
+border: none;		
+color: white;
+padding: 15px 32px;		
+text-align: center;		
+text-decoration: none;		
+display: inline-block;		
+font-size: 16px;		
+margin: 4px 2px;		
+cursor: pointer;		
+}
 </style>
 
 <script>
@@ -58,73 +103,66 @@ button {
     audio.play();
   }
 </script>
+
 </head>
-
-<body>
-
+<body class="background">
+ <div class="centered">
 <header>
-  <h1>Nick Chat</h1>
+  <h1>NICK CHAT.</h1>
+  <br>
   <h2>
-  HAS THIS EVER HAPPENED TO YOU?
-  HAVE YOU EVER BEEN STUCK AT A BORING WORK EVENT LISTENING TO AN ANNOYING COWORKER TELL 
-  HIS 'MEETING WEIRD AL' STORY AND WHEN HE STOPS TALKING YOU THINK, 'THANK GOD, I 
-  CAN FINALLY MAP OUT MY EXIT ROUTE' BUT THEN BEFORE YOU CAN LEAVE, HE STARTS TELLING YOU EVEN MORE 
-  OF THE STORY AND AFTER LISTENING TO THE END, IT TURNS HE NEVER ACTUALLY MET WEIRD AL AND ALL THIS TIME
-  HE HAS BEEN TELLING PEOPLE THE STORY ABOUT HOW HE ALMOST MET WEIRD AL BUT DIDN'T? HAS THIS EVER HAPPENED
-  TO YOU?
+ HAS THIS EVER HAPPENED TO YOU? HAVE YOU EVER BEEN STUCK AT A BORING WORK EVENT LISTENING TO AN ANNOYING COWORKER TELL 
+  HIS 'MEETING WEIRD AL' STORY AND WHEN HE STOPS TALKING YOU THINK, 'THANK GOD, I CAN FINALLY MAP OUT MY EXIT ROUTE' BUT THEN BEFORE YOU CAN LEAVE, HE STARTS TELLING YOU EVEN MORE 
+  OF THE STORY AND AFTER LISTENING TO THE END, IT TURNS HE NEVER ACTUALLY MET WEIRD AL AND ALL THIS TIME HE HAS BEEN TELLING PEOPLE THE STORY ABOUT HOW HE ALMOST MET WEIRD AL BUT DIDN'T ACTUALLY MEET WEIRD AL? HAS THIS EVER HAPPENED TO YOU?
   </h2>
-  <h2>
+  <br>
+  <h3>
   WELL NOW WITH NICK CHAT, YOU CAN CURE YOUR BOREDOM ANYWHERE.
-  </h2>
+  </h3>
 </header>
+ <br>
 
-<div class="parallax">
-  <div class="parallax-inner">
-   <img src="HeaderImage.jpg" alt="" align="middle">
-   
 <div class="button-container">
 
-<button onclick="playAudio('audio1')">WHAT THE HECK</button>				
-<button onclick="playAudio('audio2')">NICE</button>				
-<button onclick="playAudio('audio3')">HELL YEAH </button>				
-<button onclick="playAudio('audio4')">HELL YEAH</button>				
-<button onclick="playAudio('audio5')">HECK YEAH</button>				
-<button onclick="playAudio('audio6')">HELL YEAH</button>				
-<button onclick="playAudio('audio7')">HELL YEAH IT IS</button>				
-<button onclick="playAudio('audio8')">HELL YEAH</button>				
-<button onclick="playAudio('audio9')">HELL YEAH</button>				
-<button onclick="playAudio('audio10')">HELL YEAH (FINALE)</button>				
-<button onclick="playAudio('audio11')">SOMETHIN' CRAZY</button>				
-<button onclick="playAudio('audio12')">I WOULD HAVE WON...</button>				
-<button onclick="playAudio('audio13')">I REALLY WOULD HAVE WON...</button>				
-<button onclick="playAudio('audio14')">CHUCKLE</button>				
-<button onclick="playAudio('audio15')">DAMN</button>				
-<button onclick="playAudio('audio16')">I LIKE CHOWDER</button>				
-<button onclick="playAudio('audio17')">I LIKE CHILI</button>				
-<button onclick="playAudio('audio18')">I'M A CURRY GUY</button>				
-<button onclick="playAudio('audio19')">LABRUM</button>				
-<button onclick="playAudio('audio20')">OH YEAH</button>				
-<button onclick="playAudio('audio21')">OH SH*T</button>				
-<button onclick="playAudio('audio22')">OOH WHAT IS THAT</button>				
-<button onclick="playAudio('audio23')">OOH</button>				
-<button onclick="playAudio('audio24')">SAUSAGE FEST</button>				
-<button onclick="playAudio('audio25')">F*CK AROUND & FIND OUT</button>				
-<button onclick="playAudio('audio26')">I'M NOT FROM HERE</button>				
-<button onclick="playAudio('audio27')">I'LL TAKE A LITTLE BOY</button>				
-<button onclick="playAudio('audio28')">I'M A NERD</button>				
-<button onclick="playAudio('audio29')">I'M DOWN</button>				
-<button onclick="playAudio('audio30')">GIMME DAT</button>				
-<button onclick="playAudio('audio31')">SUPER TIGHT</button>				
-<button onclick="playAudio('audio32')">WHAT THE HECK (ENCORE)</button>				
-<button onclick="playAudio('audio33')">SO WE CAN GET DRUNK</button>				
-<button onclick="playAudio('audio34')">POWER MOVE</button>				
-<button onclick="playAudio('audio35')">MAXIMIZE THE FLAVOR</button>				
-<button onclick="playAudio('audio36')">GIGGLE</button>				
+<button class= "gradient-red" onclick="playAudio('audio1')">WHAT THE HECK</button>				
+<button class= "gradient-red" onclick="playAudio('audio2')">NICE</button>				
+<button class= "gradient-red" onclick="playAudio('audio3')">HELL YEAH </button>				
+<button class= "gradient-red" onclick="playAudio('audio4')">HELL YEAH</button>				
+<button class= "gradient-red" onclick="playAudio('audio5')">HECK YEAH</button>				
+<button class= "gradient-red" onclick="playAudio('audio6')">HELL YEAH</button>				
+<button class= "gradient-red" onclick="playAudio('audio7')">HELL YEAH IT IS</button>				
+<button class= "gradient-red" onclick="playAudio('audio8')">HELL YEAH</button>				
+<button class= "gradient-red" onclick="playAudio('audio9')">HELL YEAH</button>				
+<button class= "gradient-red" onclick="playAudio('audio10')">HELL YEAH (FINALE)</button>				
+<button class= "gradient-red" onclick="playAudio('audio11')">SOMETHIN' CRAZY</button>				
+<button class= "gradient-red" onclick="playAudio('audio12')">I WOULD HAVE WON...</button>			
+<button class= "gradient-lime" onclick="playAudio('audio13')">I REALLY WOULD HAVE WON...</button>				
+<button class= "gradient-lime" onclick="playAudio('audio14')">CHUCKLE</button>				
+<button class= "gradient-lime" onclick="playAudio('audio15')">DAMN</button>				
+<button class= "gradient-lime" onclick="playAudio('audio16')">I LIKE CHOWDER</button>				
+<button class= "gradient-lime" onclick="playAudio('audio17')">I LIKE CHILI</button>				
+<button class= "gradient-lime" onclick="playAudio('audio18')">I'M A CURRY GUY</button>				
+<button class= "gradient-lime" onclick="playAudio('audio19')">LABRUM</button>				
+<button class= "gradient-lime" onclick="playAudio('audio20')">OH YEAH</button>				
+<button class= "gradient-lime" onclick="playAudio('audio21')">OH SH*T</button>				
+<button class= "gradient-lime" onclick="playAudio('audio22')">OOH WHAT IS THAT</button>				
+<button class= "gradient-lime" onclick="playAudio('audio23')">OOH</button>				
+<button class= "gradient-lime" onclick="playAudio('audio24')">SAUSAGE FEST</button>				
+<button class= "gradient-blue" onclick="playAudio('audio25')">F*CK AROUND & FIND OUT</button>				
+<button class= "gradient-blue" onclick="playAudio('audio26')">I'M NOT FROM HERE</button>				
+<button class= "gradient-blue" onclick="playAudio('audio27')">I'LL TAKE A LITTLE BOY</button>				
+<button class= "gradient-blue" onclick="playAudio('audio28')">I'M A NERD</button>				
+<button class= "gradient-blue" onclick="playAudio('audio29')">I'M DOWN</button>				
+<button class= "gradient-blue" onclick="playAudio('audio30')">GIMME DAT</button>				
+<button class= "gradient-blue" onclick="playAudio('audio31')">SUPER TIGHT</button>				
+<button class= "gradient-blue" onclick="playAudio('audio32')">WHAT THE HECK (ENCORE)</button>				
+<button class= "gradient-blue" onclick="playAudio('audio33')">SO WE CAN GET DRUNK</button>				
+<button class= "gradient-blue" onclick="playAudio('audio34')">POWER MOVE</button>				
+<button class= "gradient-blue" onclick="playAudio('audio35')">MAXIMIZE THE FLAVOR</button>				
+<button class= "gradient-blue" onclick="playAudio('audio36')">GIGGLE</button>			
 
-<button onclick="playAudio('audio7')">BUTTON</button>
-  <!-- add more buttons here -->
 </div>
-
+</div>
 <audio id="audio1" src="What%20the%20Heck%201.mp3"></audio>
 <audio id="audio2" src="Nice.mp3"></audio>
 <audio id="audio3" src="Hell%20Yeah%201.mp3"></audio>
@@ -159,9 +197,8 @@ button {
 <audio id="audio32" src="What%20the%20Heck%202.mp4"></audio>
 <audio id="audio33" src="So%20We%20Can%20Get%20Drunk.mp3"></audio>
 <audio id="audio34" src="Power%20Move.mp3"></audio>
-<audio id="audio36" src="Maximize%20the%20Flavor.mp4"></audio>
-<audio id="audio35" src="Chuckle%202.mp3"></audio>
+<audio id="audio35" src="Maximize%20the%20Flavor.mp4"></audio>
+<audio id="audio36" src="Chuckle%202.mp3"></audio>
 
-<audio id="audio3" src="audio1.mp3"></audio>
 </body>
 </html>
